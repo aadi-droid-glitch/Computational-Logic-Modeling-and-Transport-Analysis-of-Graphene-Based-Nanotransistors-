@@ -11,3 +11,9 @@ This repository hosts a theoretical review and computational study of **Graphene
 ## Tools Used
 * **Python:** For data simulation and plotting.
 * **MySQL:** For structured storage of device parameters and research data.
+
+## Visualizations
+### Simulated Honeycomb Lattice
+This plot represents the two-atom basis (Sub-lattice A and B) of a Graphene sheet generated via Python.
+
+![Graphene Lattice](honeycomb_v2.png)
