@@ -25,3 +25,5 @@ The atomic coordinates are not just plotted; they are exported to a **MySQL data
 * **Table:** `lattice_coordinates`
 * **Features:** Unique ID, Sub-lattice classification (A/B), and 2D Spatial Mapping (x, y).
 * **Purpose:** To enable persistent storage for large-scale transport simulations.
+
+![Graphene Lattice](database_proof.png)
