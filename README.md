@@ -13,6 +13,13 @@ This repository hosts a theoretical review and computational study of **Graphene
 * **MySQL:** For structured storage of device parameters and research data.
 
 ## Visualizations
+
+## Data Management
+The atomic coordinates are not just plotted; they are exported to a **MySQL database** (`graphene_sim_db`).
+* **Table:** `lattice_coordinates`
+* **Features:** Unique ID, Sub-lattice classification (A/B), and 2D Spatial Mapping (x, y).
+* **Purpose:** To enable persistent storage for large-scale transport simulations.
+
 ### Simulated Honeycomb Lattice
 This plot represents the two-atom basis (Sub-lattice A and B) of a Graphene sheet generated via Python.
 
