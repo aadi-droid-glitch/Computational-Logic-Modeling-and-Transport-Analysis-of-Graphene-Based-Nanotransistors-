@@ -27,3 +27,8 @@ The atomic coordinates are not just plotted; they are exported to a **MySQL data
 * **Purpose:** To enable persistent storage for large-scale transport simulations.
 
 ![Graphene Lattice](database_proof.png)
+
+## Phase 2: Topology and Connectivity
+* Successfully implemented a **Nearest-Neighbor search** to identify atomic bonds.
+* Visualized the "Hopping Paths" which represent the electron's travel route across the $\pi$-cloud.
+* Validated that each Sub-lattice A (Blue) atom connects only to Sub-lattice B (Red) neighbors.
