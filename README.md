@@ -32,3 +32,5 @@ The atomic coordinates are not just plotted; they are exported to a **MySQL data
 * Successfully implemented a **Nearest-Neighbor search** to identify atomic bonds.
 * Visualized the "Hopping Paths" which represent the electron's travel route across the $\pi$-cloud.
 * Validated that each Sub-lattice A (Blue) atom connects only to Sub-lattice B (Red) neighbors.
+
+![Graphene Mesh](graphene_mesh.png)
