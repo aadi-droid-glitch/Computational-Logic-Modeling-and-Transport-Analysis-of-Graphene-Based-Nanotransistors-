@@ -1,36 +1,25 @@
-# Computational Logic Modeling and Transport Analysis of Graphene-Based Nanotransistors
+# Graphene Nanotransistor Logic Simulation
+**Exploring Post-Silicon Computing through 2D Material Modeling**
 
-## Overview
-This repository hosts a theoretical review and computational study of **Graphene Field-Effect Transistors (GFETs)**. As Silicon CMOS technology approaches its physical scaling limits, 2D materials like Graphene offer a promising path forward.
+## 📌 Project Overview
+As Silicon transistors approach the 5nm physical limit, "Quantum Tunneling" causes excessive heat and data leakage. This project simulates **Graphene Field-Effect Transistors (GFETs)** as a potential successor, using Python-based coordinate modeling and SQL data management.
 
-## Research Objectives
-* **Sub-threshold Swing Analysis:** Investigating the limits of switching efficiency.
-* **1/f Noise Mitigation:** Analyzing techniques to reduce low-frequency noise in carbon-based devices.
-* **Logic Gate Implementation:** Modeling the feasibility of Graphene-based NAND/NOR architectures.
+## 🚀 Current Progress: Phase 2 (Connectivity)
+We have successfully transitioned from raw atomic coordinates to a **Connected Topology**.
 
-## Tools Used
-* **Python:** For data simulation and plotting.
-* **MySQL:** For structured storage of device parameters and research data.
+### Key Accomplishments:
+* **Lattice Generation:** Created a 32-atom finite graphene sheet with distinct A and B sub-lattices.
+* **SQL Integration:** Automated the export of atomic metadata to a MySQL database for persistent storage.
+* **Neighbor Analysis:** Implemented a distance-threshold algorithm to map "Hopping Paths"—the routes electrons take through the material.
 
-## Visualizations
+## 🔬 Visual Evidence
+| Initial Lattice | Connected Mesh |
+| :--- | :--- |
+| ![Initial](assets/honeycomb_v2.png) | ![Mesh](assets/graphene_mesh.png) |
 
-### Simulated Honeycomb Lattice
-This plot represents the two-atom basis (Sub-lattice A and B) of a Graphene sheet generated via Python.
+> **Note on Topology:** Our connectivity tests confirm a bipartite lattice where each interior Carbon atom maintains a coordination number of 3, matching theoretical graphene standards.
 
-![Graphene Lattice](honeycomb_v2.png)
-
-
-## Data Management
-The atomic coordinates are not just plotted; they are exported to a **MySQL database** (`graphene_sim_db`).
-* **Table:** `lattice_coordinates`
-* **Features:** Unique ID, Sub-lattice classification (A/B), and 2D Spatial Mapping (x, y).
-* **Purpose:** To enable persistent storage for large-scale transport simulations.
-
-![Graphene Lattice](database_proof.png)
-
-## Phase 2: Topology and Connectivity
-* Successfully implemented a **Nearest-Neighbor search** to identify atomic bonds.
-* Visualized the "Hopping Paths" which represent the electron's travel route across the $\pi$-cloud.
-* Validated that each Sub-lattice A (Blue) atom connects only to Sub-lattice B (Red) neighbors.
-
-![Graphene Mesh](graphene_mesh.png)
+## 🛠️ Tech Stack
+* **Language:** Python (NumPy, Matplotlib, SciPy)
+* **Database:** MySQL (Storage of spatial coordinates and atom types)
+* **Research Focus:** Tight-Binding Model, Logic Gate Switching, Nanotransistor Scalability.
