@@ -23,3 +23,5 @@ We have successfully transitioned from raw atomic coordinates to a **Connected T
 * **Language:** Python (NumPy, Matplotlib, SciPy)
 * **Database:** MySQL (Storage of spatial coordinates and atom types)
 * **Research Focus:** Tight-Binding Model, Logic Gate Switching, Nanotransistor Scalability.
+
+"Successfully generated a $32 \times 32$ Adjacency Matrix from the SQL lattice data. This matrix represents the digital topology of the Graphene sheet, enabling future Hamiltonian-based transport simulations."
